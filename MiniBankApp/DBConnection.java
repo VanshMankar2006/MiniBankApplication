@@ -9,8 +9,8 @@ public class DBConnection {
 
         try{
             String url = "jdbc:postgresql://localhost:5432/MiniBankApp";
-	        String username = "postgres";
-	        String password = "06032006";
+	        String username = "your_username";
+	        String password = "your_password";
 		    Class.forName("org.postgresql.Driver");
             con = DriverManager.getConnection(url,username,password);
         }catch(Exception e){
